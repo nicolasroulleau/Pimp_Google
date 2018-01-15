@@ -1,7 +1,7 @@
 let monBouton = document.getElementById('affichage')
 monBouton.onclick = function() 
 {
-	document.getElementById('bloc_centre').style.display='block';
+	document.getElementById('bloc_centre').style.display='flex';
 	document.getElementById('affichage').style.display='none';
 }
 
